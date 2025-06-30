@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram Video Yuklab olish</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        input, button {
+            padding: 10px;
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/download" method="POST">
+        <h2>Instagram video yuklab olish</h2>
+        <input type="text" name="url" placeholder="Instagram video havolasini kiriting" required>
+        <button type="submit">Yuklab olish</button>
+    </form>
+</body>
+</html>
